@@ -9,3 +9,7 @@ Rules for seating:
 Input to the program will be
 - A 2D array that represents the rows and columns ex: [[3,4], [4,5], [2,3]]
 - Number of passengers waiting in queue.
+
+Logic Of Assigning seats
+
+- The logic of assigning seats can be found at <a href="https://https://github.com/pacifiquem/Airplane-seating-algorithm/tree/main/src/logic/AirplaneSeating.js">Logic</a>

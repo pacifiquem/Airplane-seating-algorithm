@@ -53,7 +53,7 @@ class ModalInput extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{marginTop: '5vh'}}>
         <Divider className="mt-2" />
         <Button onClick={this.show} primary>
           Create New Airplane

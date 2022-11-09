@@ -1,5 +1,5 @@
 body {
-  margin: 10% auto;
+  margin: 6% auto;
   font-weight: 700;
   text-align: center;
   min-width: 700px;
@@ -8,6 +8,7 @@ body {
 
 h1 {
   font-size: 3rem;
+  text-align: center;
 }
 
 .text-align-left {
@@ -28,7 +29,7 @@ h1 {
 }
 
 .pt-5 {
-  padding-top: 10em;
+  padding-top: 5em;
 }
 
 .pr-5 {
@@ -43,4 +44,12 @@ h1 {
 
 .mt-2 {
   margin-top: 2em !important;
+}
+
+.circular {
+  border-radius: 7% !important;
+}
+
+.pt {
+  padding-top: 3rem !important;
 }
