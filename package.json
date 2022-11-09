@@ -1,5 +1,5 @@
 {
-  "name": "airplane-seating-algorithm",
+  "name": "airplane_seating_algorithm",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
