@@ -13,3 +13,5 @@ Input to the program will be
 Logic Of Assigning seats
 
 - The logic of assigning seats can be found at <a href="https://github.com/pacifiquem/Airplane-seating-algorithm/tree/main/src/logic/AirplaneSeating.js">Logic</a>
+
+-Try it <a href="https://airplane-seating-algorithm.vercel.app">here</a> .
