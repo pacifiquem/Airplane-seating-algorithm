@@ -1,0 +1,46 @@
+body {
+  margin: 10% auto;
+  font-weight: 700;
+  text-align: center;
+  min-width: 700px;
+  color: #767676;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.ui.label {
+  width: 3em;
+  background-color: transparent;
+}
+
+.pt {
+  padding-top: 1em;
+}
+
+.pt-5 {
+  padding-top: 10em;
+}
+
+.pr-5 {
+  padding-right: 10em;
+}
+
+.block {
+  background-color: bisque;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.mt-2 {
+  margin-top: 2em !important;
+}
