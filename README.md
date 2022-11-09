@@ -1,12 +1,11 @@
-### Airplane Seating Algorithm
+# airplane-seatng-algorithm
 
-## This Repository explains well the Airplane Seating Algorithm
+app that helps seat audiences in a flight based on the following input and rules.
 
-<p>
-    <a href="https://pacifiquem/Airplane-seating-algorithm/tree/main/src/Question.md">Question Discription</a>
-    <a href="https://pacifiquem/Airplane-seating-algorithm/tree/main/src/Answer.md">Answer Discription</a>
-</p>
-<p>
-    <a href="https://pacifiquem/Airplane-seating-algorithm/tree/main/src/answer.cpp">Answer Source Code</a>
-</p>
-<p>Thank You !</p>
+Rules for seating:
+- Always seat passengers starting from the front row to back, starting from the left to the right
+- Fill aisle seats first followed by window seats followed by center seats (any order in center seats)
+
+Input to the program will be
+- A 2D array that represents the rows and columns ex: [[3,4], [4,5], [2,3]]
+- Number of passengers waiting in queue.
