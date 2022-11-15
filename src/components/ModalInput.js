@@ -42,6 +42,11 @@ class ModalInput extends Component {
       return false;
     }
 
+    if(passengers <= 0) {
+      this.setState({ error: 'Passengers must be greater than 0'});
+      return false;
+    }
+
     if (!isArrayValid(seats)) {
       this.setState({
         error: 'Seats must be a valid array according to above rules. (Check Rules At the Top) .',
