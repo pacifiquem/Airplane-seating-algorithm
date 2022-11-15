@@ -10,9 +10,9 @@ class Seats extends Component {
       );
     }
     return (
-      <div className="pt">
+      <div className="pt" style={{overflowX: 'scroll'}}>
         <h3 style={{display: 'inline', backgroundColor: 'rgba(0, 0, 0, 0.5)', color: 'white'}}>Remaining Passengers: {seatingData.remainingPassengers}</h3>
-        <div style={{marginTop: '5vh'}}>
+        <div style={{marginTop: '5vh', overflowX: 'scroll'}}>
           {seatingData.seats.map((row, rowI) => {
             return (
               <div key={'row' + rowI}>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { isValid2dArray, isNonNegativeInteger, isRowsAndColsLessThan } from '../helper/Validation';
+import { isNonNegativeInteger, isArrayValid } from '../helper/Validation';
 import { Button, Header, Modal, Form, Message, Divider } from 'semantic-ui-react';
 
 class ModalInput extends Component {
@@ -41,9 +41,10 @@ class ModalInput extends Component {
       this.setState({ error: 'Passengers must be at least 0.' });
       return false;
     }
-    if (!isValid2dArray(seats, isRowsAndColsLessThan, 5, 100) || seats.length >= 5) {
+
+    if (!isArrayValid(seats)) {
       this.setState({
-        error: 'Seats must be a valid array according to above rules.',
+        error: 'Seats must be a valid array according to above rules. (Check Rules At the Top) .',
       });
       return false;
     }
@@ -63,8 +64,8 @@ class ModalInput extends Component {
           <Modal.Content>
             <Modal.Description>
               <Header>Rules:</Header>
-              <p>Row numbers and no of seat blocks must be below 5.</p>
-              <p>Col numbers must be below 100.</p>
+                <p>Row numbers and no of seat blocks must be above 1 and below 20 .</p>
+                <p>Col numbers must be above 1 and below 30 .</p>
               <Header>Form:</Header>
               <Form error>
                 <Form.Input
